@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francisca — Web & UI/UX Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="nav">
+    <a href="#home" class="nav__mark">F.</a>
+    <nav class="nav__links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== HOME / HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero__grid">
+      <p class="eyebrow"><span class="eyebrow__dot"></span>Available for junior roles &amp; freelance</p>
+      <h1 class="hero__title">Francisca<br><span>designs &amp; builds<br>for the web.</span></h1>
+      <p class="hero__subtitle">
+        I'm a web development and UI/UX design student who enjoys turning
+        rough ideas into clean, usable interfaces — from the first wireframe
+        to the last line of CSS.
+      </p>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">View my work</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="hero__frame">
+      <span class="tick tick--tl"></span>
+      <span class="tick tick--tr"></span>
+      <span class="tick tick--bl"></span>
+      <span class="tick tick--br"></span>
+      <div class="hero__frame-inner">
+        <span class="hero__frame-label">photo</span>
+      </div>
+      <span class="dim dim--w">360</span>
+      <span class="dim dim--h">420</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about">
+    <p class="section-label">01 — About</p>
+    <div class="about__grid">
+      <h2 class="section-title">A little about<br>how I work.</h2>
+      <div class="about__body">
+        <p>
+          I'm currently studying web development and UI/UX design, learning how
+          to think through a problem the way a designer does and then build the
+          solution the way a developer does. I like projects that sit at that
+          overlap — where a good decision in Figma has to survive contact with
+          real HTML and CSS.
+        </p>
+        <p>
+          Outside of coursework, I'm building this portfolio as a running
+          record of what I'm learning: each project below marks a new skill
+          I picked up along the way, not a finished, polished product.
+        </p>
+        <ul class="about__facts">
+          <li><span>Focus</span>Front-end development &amp; UI/UX design</li>
+          <li><span>Currently</span>Building out this portfolio, project by project</li>
+          <li><span>Tools</span>HTML, CSS, Figma</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="projects">
+    <p class="section-label">02 — Projects</p>
+    <h2 class="section-title">Selected work.</h2>
+    <p class="section-intro">A few pieces from coursework and self-directed practice. Replace these with your own case studies as you build them.</p>
+
+    <div class="projects__grid">
+
+      <article class="card">
+        <span class="tick tick--tl"></span><span class="tick tick--br"></span>
+        <div class="card__thumb">01</div>
+        <div class="card__body">
+          <h3>Project title one</h3>
+          <p>Short one- or two-line description of the problem, your role, and the outcome.</p>
+          <div class="card__tags">
+            <span>HTML</span><span>CSS</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="tick tick--tl"></span><span class="tick tick--br"></span>
+        <div class="card__thumb">02</div>
+        <div class="card__body">
+          <h3>Project title two</h3>
+          <p>Short one- or two-line description of the problem, your role, and the outcome.</p>
+          <div class="card__tags">
+            <span>Figma</span><span>UI Design</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="tick tick--tl"></span><span class="tick tick--br"></span>
+        <div class="card__thumb">03</div>
+        <div class="card__body">
+          <h3>Project title three</h3>
+          <p>Short one- or two-line description of the problem, your role, and the outcome.</p>
+          <div class="card__tags">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="skills">
+    <p class="section-label">03 — Skills</p>
+    <h2 class="section-title">What I'm working with.</h2>
+
+    <div class="skills__grid">
+      <div class="skills__group">
+        <h3>Development</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3 (Flexbox &amp; Grid)</li>
+          <li>Responsive layout</li>
+          <li>JavaScript basics</li>
+        </ul>
+      </div>
+      <div class="skills__group">
+        <h3>Design</h3>
+        <ul>
+          <li>Figma</li>
+          <li>Wireframing</li>
+          <li>Typography &amp; colour systems</li>
+          <li>Prototyping</li>
+        </ul>
+      </div>
+      <div class="skills__group">
+        <h3>Process</h3>
+        <ul>
+          <li>User research basics</li>
+          <li>Design-to-code handoff</li>
+          <li>Accessibility fundamentals</li>
+          <li>Version control (Git)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact">
+    <div class="contact__inner">
+      <p class="section-label section-label--light">04 — Contact</p>
+      <h2 class="section-title section-title--light">Let's work<br>together.</h2>
+      <p class="contact__intro">Have a project, an opportunity, or just want to say hi? My inbox is open.</p>
+
+      <form class="contact__form">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@email.com">
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell me a bit about what you have in mind"></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--light">Send message</button>
+      </form>
+
+      <div class="contact__links">
+        <a href="mailto:hello@francisca.dev">hello@francisca.dev</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>©️ 2026 Francisca. Built with HTML &amp; CSS.</p>
+  </footer>
+
+  <script>
+    // simple mobile nav toggle
+    const toggle = document.getElementById('navToggle');
+    const links = document.querySelector('.nav__links');
+    toggle.addEventListener('click', () => {
+      const open = links.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', open);
+      toggle.classList.toggle('is-open');
+    });
+    // close menu after clicking a link (mobile)
+    links.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        links.classList.remove('is-open');
+        toggle.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', false);
+      });
+    });
+  </script>
+
+</body>
+</html>
